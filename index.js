@@ -14,9 +14,8 @@ function addToCart(item) {
    {itemName:"bananas", itemPrice: math.floor(math.random()*100)},
    {itemName:"pancake batter",itemPrice: math.floor(math.random()*100)},
    {itemName:"eggs", itemPrice: math.floor(math.random()*100) },
-   {itemName:"blueberries", itemPrice: math.floor(math.random()*100)},
-   {itemName:"yogurt", itemPrice: math.floor(math.random()*100)}]
-   return `<itemName> has been added to your cart.`
+   {itemName: String, itemPrice: math.floor(math.random()*100)},]
+   return `<itemName> has been added to your cart.`;
 }
 
 function viewCart() {
@@ -24,15 +23,16 @@ function viewCart() {
     if(cart.length){
       return `In your cart, you have ${itemName} at $${itemPrice}.`
     }else{
-      return "Your shopping cart is empty."
+      return "Your shopping cart is empty.";
     }
   }
 }
 
 function total() {
+  var sum = 0
   for(i=0; i < cart.length; i++){
-    if(cart.length){
-      return
+    if(sum += total[i]){
+      return sum;
     }
   }
 }
