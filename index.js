@@ -28,8 +28,9 @@ function viewCart() {
 function total() {
   var sum = 0
   for(i=0; i < cart.length; i++){
-    if(sum += total[i]){
-      return sum;
+    if(cart.length){
+      // explore sum += total[i]
+      //return sum;
     }
   }
 }
