@@ -13,8 +13,7 @@ function addToCart(item) {
   var newObject = [
    {itemName:"bananas", itemPrice: math.floor(math.random()*100)},
    {itemName:"pancake batter",itemPrice: math.floor(math.random()*100)},
-   {itemName:"eggs", itemPrice: math.floor(math.random()*100) },
-   {itemName: String, itemPrice: math.floor(math.random()*100)},]
+   {itemName:"eggs", itemPrice: math.floor(math.random()*100) },]
    return `<itemName> has been added to your cart.`;
 }
 
